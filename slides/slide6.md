@@ -12,7 +12,7 @@ Implementation details should not matter to high-level components.
 export function PlanOption(props) {
   const { plan } = props;
 
-  const { primaryText } = plan.display;
+  const { primaryText } = plan;
 
   return (
     <div>
